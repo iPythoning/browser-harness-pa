@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "platform": "Alibaba International (alibaba.com)",
+    "pa_version": "0.1.0",
+    "upstream_harness_baseline": "none",
+    "last_audited": "2026-05-07"
+  },
+  "inquiry_list": {
+    "container": "[data-page-id='inquiry-list'] .inquiry-item, .msg-list-item",
+    "subject": ".inquiry-title, .msg-subject",
+    "buyer_name": ".buyer-name, .contact-name",
+    "buyer_country": ".buyer-country, .country-flag + span",
+    "timestamp": ".inquiry-time, time[datetime]",
+    "rfq_body": ".inquiry-content, .msg-body-preview",
+    "next_page": ".pagination-next:not([disabled]), [aria-label='Next page']:not([disabled])"
+  },
+  "inquiry_detail": {
+    "subject": "h1.detail-subject, .inquiry-detail__title",
+    "buyer_info": {
+      "name": ".buyer-card .name, .contact-detail .name",
+      "company": ".buyer-card .company, .contact-detail .company",
+      "country": ".buyer-card .country",
+      "email": ".buyer-contact-email"
+    },
+    "rfq_full": ".message-content, .inquiry-detail__body",
+    "attachments": ".attachment-list .attachment-item",
+    "reply_textarea": "textarea[name='reply'], #reply-content",
+    "reply_submit": "button[data-action='send-reply'], .reply-submit-btn"
+  },
+  "login": {
+    "username_input": "#TPL_username_1, input[name='loginId']",
+    "password_input": "#TPL_password_1, input[name='password']",
+    "submit": "#J_LoginBtn, button[type='submit'].login-btn"
+  }
+}

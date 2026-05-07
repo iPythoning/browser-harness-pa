@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "platform": "LinkedIn (linkedin.com) — B2B lead discovery for external-trade SDR",
+    "pa_version": "0.1.0",
+    "upstream_harness_baseline": "none",
+    "last_audited": "2026-05-07",
+    "note": "Used for outbound prospecting (import managers, procurement leads). Not for inquiries scraping."
+  },
+  "search": {
+    "people_search_url": "https://www.linkedin.com/search/results/people/",
+    "filters": {
+      "title_input": "input[aria-label='Add a title']",
+      "company_input": "input[aria-label='Add a company']",
+      "geography_input": "input[aria-label='Add a location']",
+      "apply_button": "button[data-control-name='filter_show_results'], button.search-reusables__secondary-filters-show-results-button"
+    },
+    "result_card": "li.reusable-search__result-container",
+    "profile_name": "span.entity-result__title-text a span[aria-hidden='true']",
+    "profile_url": "a.app-aware-link[href*='/in/']",
+    "headline": ".entity-result__primary-subtitle",
+    "location": ".entity-result__secondary-subtitle",
+    "connect_button": "button[aria-label^='Connect']",
+    "next_page": "button[aria-label='Next']"
+  },
+  "profile": {
+    "name": "h1.text-heading-xlarge",
+    "headline": ".text-body-medium.break-words",
+    "about": "#about ~ .display-flex .visually-hidden",
+    "experience_section": "#experience ~ .pvs-list__container li.artdeco-list__item",
+    "send_message": "a[href*='messaging/compose'], button[aria-label^='Message']"
+  },
+  "messaging": {
+    "compose_button": "a.msg-overlay-bubble-header__button[href*='messaging/compose']",
+    "message_input": "div.msg-form__contenteditable[contenteditable='true']",
+    "send_button": "button.msg-form__send-button"
+  }
+}

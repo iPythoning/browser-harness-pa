@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "platform": "Global Sources (globalsources.com)",
+    "pa_version": "0.1.0",
+    "upstream_harness_baseline": "none",
+    "last_audited": "2026-05-07"
+  },
+  "inquiry_list": {
+    "container": ".inquiry-item, .gs-message-row",
+    "subject": ".inquiry-subject, .msg-subject-text",
+    "buyer_name": ".buyer-name, .contact-display-name",
+    "buyer_country": ".buyer-location .country, .contact-country",
+    "timestamp": ".inquiry-sent-time, .msg-timestamp",
+    "rfq_body": ".inquiry-message-preview, .msg-body-short",
+    "next_page": "a.pagination-next, button[aria-label='Go to next page']:not(:disabled)"
+  },
+  "inquiry_detail": {
+    "subject": ".inquiry-full-subject, .detail-msg-subject",
+    "buyer_info": {
+      "name": ".buyer-detail .full-name",
+      "company": ".buyer-detail .company-name",
+      "country": ".buyer-detail .country-name",
+      "email": ".buyer-contact-info .email-addr"
+    },
+    "rfq_full": ".inquiry-full-message, .detail-body-text",
+    "attachments": ".inquiry-attachments .attachment",
+    "reply_textarea": "textarea.compose-reply, #reply-message-body",
+    "reply_submit": ".send-reply-button, button[data-action='submitReply']"
+  },
+  "login": {
+    "username_input": "input[name='email'], #login-email",
+    "password_input": "input[name='password'], #login-password",
+    "submit": "button.sign-in-btn, input[type='submit'][value='Sign In']"
+  }
+}

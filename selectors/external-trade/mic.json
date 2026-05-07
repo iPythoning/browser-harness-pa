@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "platform": "Made-in-China (made-in-china.com)",
+    "pa_version": "0.1.0",
+    "upstream_harness_baseline": "none",
+    "last_audited": "2026-05-07"
+  },
+  "inquiry_list": {
+    "container": ".inquiry-list .item, .message-list .message-item",
+    "subject": ".inquiry-subject, .msg-title",
+    "buyer_name": ".buyer-name, .sender-name",
+    "buyer_country": ".buyer-country, .flag-icon + span",
+    "timestamp": ".inquiry-date, .msg-time",
+    "rfq_body": ".inquiry-brief, .msg-content-preview",
+    "next_page": ".page-next:not(.disabled), a[rel='next']"
+  },
+  "inquiry_detail": {
+    "subject": ".inquiry-detail-title, h2.subject",
+    "buyer_info": {
+      "name": ".buyer-info .name",
+      "company": ".buyer-info .company",
+      "country": ".buyer-info .country",
+      "email": ".buyer-info .email"
+    },
+    "rfq_full": ".inquiry-detail-content, .message-full-body",
+    "attachments": ".attachment-files .file-item",
+    "reply_textarea": "textarea#replyContent, textarea[name='content']",
+    "reply_submit": ".reply-btn-submit, button.send-reply"
+  },
+  "login": {
+    "username_input": "input#username, input[name='loginName']",
+    "password_input": "input#password, input[name='loginPwd']",
+    "submit": "button.login-submit, input[type='submit'].login-btn"
+  }
+}
