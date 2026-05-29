@@ -19,3 +19,9 @@
 - Blog en: https://pulseagent.io/en/blog/browser-harness-weekly-digest-2026-w22
 - Blog zh: https://pulseagent.io/en/blog/browser-harness-weekly-digest-2026-w22-zh
 - WeChat: queued (API error: invalid appsecret 40125)
+
+## 2026-05-29T00:00:00Z — Queue drain attempt (2026-W22, already digested)
+- Week already digested: yes
+- Drain attempt: 2026-W22 zh → POST /api/wechat/publish → 403 Forbidden
+- WeChat: still queued (403 — check API key / WeChat OAuth token expiry)
+- Action needed: verify pulseagent.io WeChat integration credentials
