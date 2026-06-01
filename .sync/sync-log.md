@@ -25,3 +25,13 @@
 - Drain attempt: 2026-W22 zh → POST /api/wechat/publish → 403 Forbidden
 - WeChat: still queued (403 — check API key / WeChat OAuth token expiry)
 - Action needed: verify pulseagent.io WeChat integration credentials
+
+## 2026-06-01T00:00:00Z — Weekly digest 2026-W23
+- Commits: 0
+- PRs merged: 0
+- Top picks: n/a
+- PA selectors: ok (no upstream changes)
+- Blog en: n/a
+- Blog zh: n/a
+- WeChat: queued (W22 still pending — API 403)
+- Note: no upstream activity in browser-use/browser-harness since 2026-05-25
