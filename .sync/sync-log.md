@@ -35,3 +35,15 @@
 - Blog zh: n/a
 - WeChat: queued (W22 still pending — API 403)
 - Note: no upstream activity in browser-use/browser-harness since 2026-05-25
+
+## 2026-06-08T14:30:00Z — Weekly digest 2026-W24
+- Commits: 0 (last merged commit: 2026-05-20, PR #314 QBO report export skill)
+- PRs merged: 0
+- Closed PRs (no merge): #193 docs README refresh, #403 Brevo domain skill (withdrawn), #402 BH_NO_ACTIVATE switch_tab (withdrawn), #404 removed duplicate
+- Open PRs in pipeline: #412 JPEG screenshot helper, #411 reddit voice docs, #410 Polish tax portal skill, #409 #407 testfol.io backtester, #406 Allow-dialog race docs, #405 SG grocery skills, #401 Robinhood MCP, #400 mermaid.live skill, #399 Chinese locale request, #398 Google Trends+Reddit fix
+- Top picks: n/a (no merges)
+- PA selectors: ok — no breaking upstream changes; fork stable
+- Blog en: n/a
+- Blog zh: n/a
+- WeChat: W22 still queued — Cloudflare 1010 block (IP or token); W24 no-activity skip
+- Note: upstream in review pause since 2026-05-20; community PRs accumulating (412+)
