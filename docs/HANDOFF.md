@@ -5,7 +5,7 @@
 
 ## 项目速览
 
-- 路径：`./03-ai-agent-infra/browser-harness-pa`
+- 路径：`~/_projects_by_logic/03-ai-agent-infra/browser-harness-pa`
 - 技术栈：Python
 - 远程：https://github.com/iPythoning/browser-harness-pa.git
 - 当前分支：`main`
