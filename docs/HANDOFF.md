@@ -11,6 +11,32 @@
 - 当前分支：`main`
 - 最后活动：2026-07-31
 
+## 仓库速览（自动提取，供冷启动）
+
+
+
+
+
+
+> 以下内容由 `agents-enrich-handoff.py` 从**本仓库文件**自动提取，只含事实，不含推测。
+> 「当前目标 / 下一步」仍需人工填写——脚本无法知道你这轮要做什么。
+
+### 这是什么
+
+Connect an LLM directly to your real browser with a thin, editable CDP harness. For browser tasks where you need **complete freedom**. One websocket to Chrome, nothing between. The agent writes what's missing during execution. The harness improves itself every run.
+
+（package.json 描述：The simplest, thinnest, and most powerful harness to control your real browser with your agent.）
+
+### 需要配置的环境变量（键名，取自 `.env.example`；**值不在仓库里**）
+
+`BROWSER_USE_API_KEY`
+
+### 目录与文件构成
+
+顶层：`AGENTS.md`、`CHANGELOG.md`、`CLAUDE.md`、`GEMINI.md`、`LICENSE`、`README.md`、`SKILL.md`、`agent-workspace/`、`cliff.toml`、`docs/`、`domain-skills/`、`install.md`、`interaction-skills/`、`pyproject.toml`、`src/`、`tests/`
+
+主要文件类型：`.md` × 132、`.py` × 19、`.yml` × 3、`.toml` × 2、`.png` × 2、`.example` × 1
+
 ## 如何验证（基线，动手前先跑一次）
 
 - 测试：`pytest -q`
